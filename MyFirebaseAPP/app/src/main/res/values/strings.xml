@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">MyFirebaseAPP</string>
+    <string name="has_iniciado_sesion">Has iniciado sesion</string>
+</resources>

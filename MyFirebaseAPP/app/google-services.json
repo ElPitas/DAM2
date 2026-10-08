@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "442403918668",
+    "project_id": "myfirebaseapp-b6fe3",
+    "storage_bucket": "myfirebaseapp-b6fe3.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:442403918668:android:ed939dee286b6af267f5e9",
+        "android_client_info": {
+          "package_name": "cat.institutmarianao.myfirebaseapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAiT6aQP0i9vJe14GxUP21UYUIMIH-Lkxk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
