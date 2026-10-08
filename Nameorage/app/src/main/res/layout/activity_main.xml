@@ -8,12 +8,43 @@
     tools:context=".MainActivity">
 
     <TextView
+        android:id="@+id/TextBase"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Hello World!"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginStart="10pt"
+        android:layout_marginTop="30pt"
+        android:text="Choose one button:"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/FloatingText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="27dp"
+        android:text="Here I come San Francisco"
+        android:visibility="gone"
+        app:layout_constraintStart_toStartOf="@+id/AgeButton"
+        app:layout_constraintTop_toBottomOf="@+id/AgeButton" />
+
+    <Button
+        android:id="@+id/NameButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30pt"
+        android:layout_marginTop="24pt"
+        android:text="Button"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/TextBase" />
+
+    <Button
+        android:id="@+id/AgeButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30pt"
+        android:layout_marginTop="15pt"
+        android:text="Button"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/NameButton" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
